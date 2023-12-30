@@ -1,0 +1,122 @@
+
+body {
+    background-color: white;
+	font-family: 'Poppins';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 20px;
+    background-color: #F2EFEB;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 100;
+    box-shadow:0 1px 5px 0 rgba(0, 0, 0, 0.19);
+     resize: none;
+}
+.logo {
+    font-size: 25px;
+    color: #13017C;
+    text-decoration: none;
+    font-weight: 600;
+}
+nav a {
+    font-size: 18px;
+    color: #13017C;
+    text-decoration: none;
+    font-weight: 500;
+    margin-right: 25px;
+    transition: .3s;
+}
+.active:hover {
+    color: #04AA6D;
+}
+
+#menu-icon {
+    font-size: 3.6rem;
+    color: #13017C;
+    cursor: pointer;
+    display: none;
+}
+
+.home {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    justify-content: space-around;
+        background-color: #F2EFEB;
+}
+.home-content {
+    max-width: 500px;
+    line-height: px;
+}
+.home-content h1 {
+    font-size:  40px;
+    font-weight: 700;
+    line-height: 1px;
+}
+.home-content h3 {
+    font-size: 32px;
+    font-weight: 700;
+    font-style: oblique;
+    color: #13017C;
+}
+.home-content p {
+    font-size: 16px;
+    padding-bottom: 20px;
+
+}
+.btn {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    height: 48px;
+    background-color: #13017C;
+    border-radius: 40px;
+    font-size: 19px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.home-sci a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    font-size: 25px;
+    color: #fff;
+    background-color: #13017C;
+    border-radius: 100%;
+    text-decoration: none;
+    margin: 15px 0px;
+}
+.image img {
+    width: 400px;
+    height: 400px;
+    background-color: #13017C;
+    border-radius: 50%;
+    border: 5px solid #13017C;
+}
+
+
+footer {
+            background-color: black;
+            color: #fff;
+            text-align: center;
+            padding: 1PX;
+            bottom: 0;
+            width: 100%;
+}
+
